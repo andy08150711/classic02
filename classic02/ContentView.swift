@@ -17,6 +17,7 @@ struct ContentView: View {
         Spacer()
         Text("How are you today?")
             .padding(.bottom,40)
+            Text("classic")
             .font(.title2)
     }
     .frame(height: 200, alignment: .center)
